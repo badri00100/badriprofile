@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(12, 12, 12);
+}
+.fluid-container h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    text-decoration: underline;
+}
+.fluid-container p{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left:2%;
+}
+.image img{
+    border: 2px solid white;
+    width: 40%;
+    margin-right: 3%;
+    height: 500px;
+    float: right;
+    opacity: 1.5;
+}
+.rightpara{
+    /* width: 54%; */
+    margin-right: 1%;
+}
+.bottompara{
+    /* border: 2px solid white; */
+}
+@media(max-width:810px){
+    .image img{
+        height: 360px;
+    }
+}
+@media(max-width:700px){
+    .image img{
+        width: 94%;
+        height: 460px;
+    }
+    .fluid-container p{
+        font-size: 60px;
+    }
+}
+/* --------------------------------------xxxxxxxxxxxxxxxxxxxxxx-------------------------------------------- */
+.goals{
+    background-color: chartreuse;
+    height: 100vh;
+}
+.goals h2{
+    font-size: 90px;
+    text-align: center;
+}
+.right{
+    display: inline;
+}
+.card{
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+@media(max-width:1050px){
+    .card{
+        margin-left: 15%;
+        }
+}
+@media(max-width:740px){
+    .card{
+        margin-left: 5%;
+    }
+}
+@media(max-width:650px){
+    .card{
+        margin-left: 25%;
+    }
+    .goals{
+        height: 150vh;
+    }
+}
+@media(max-width:450px){
+    .card{
+        margin-left: 20%;
+    }
+    .goals{
+        height: 180vh;
+    }
+}
+@media(max-width:400px){
+    .card{
+        margin-left: 2%;
+    }
+    .goals{
+        height: 180vh;
+    }
+}
+/* ------------------------------------------------xxxxxxxxxxxxxx--------------------------------------------------------------- */
+.support{
+    background-color: black;
+    text-align: center;
+    
+}
+.support h1{
+    color: white;
+    font-family: cursive;
+    font-size: 70px;
+}
+.fpara{
+    color: white;
+    font-family: italic;
+}
+.card{
+    background-color: yellow;
+}

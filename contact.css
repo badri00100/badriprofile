@@ -1,0 +1,33 @@
+*{
+    margin: center;
+    padding: center;
+    box-sizing: border-box;
+}
+.contact{
+    text-align: center;
+}
+.contact h1{
+    font-size: 80px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.images div{
+ 
+
+}
+.button{
+    display: block;
+    border: 1px solid red;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.979);
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+.images img{
+    width: 200px;
+}
